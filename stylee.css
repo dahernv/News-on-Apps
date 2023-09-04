@@ -144,7 +144,9 @@ nav {
     font-family: sans-serif;
     font-weight: 300;
     font-style: italic;
-}
+    display: block;
+    
+    }
 
 @keyframes aparecer {
     0%{
@@ -286,6 +288,8 @@ nav {
     color: #8a8080;
     padding: 10px;
     margin-bottom: 10px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .text-live-stream{
@@ -309,7 +313,7 @@ h2{
 
 h3{
     font-family: Serif;
-    font-size: 22px;
+    font-size: 20px;
     text-transform: none;
     color: #BA8474;
     padding: 10px;
