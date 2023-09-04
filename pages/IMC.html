@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../stylee.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto:ital,wght@0,500;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <header class="header1" id="navbarContainer">
+       <nav>
+            <ul>
+                <li  onclick="openUrl('../index.html')">Latest news</li>
+                <li  onclick="openUrl('EventsAndPujas.html')">Events and Pujas</li>
+                <li  onclick="openUrl('NVandNIPC.html')">NIPC/NV</li>
+                <li  onclick="openUrl('WF.html')">World Foundation</li>
+                <li  onclick="openUrl('CC.html')">Central Committee</li>
+                <li class="tab-hover" onclick="openUrl('IMC.html')">International Marriage Committee</li>
+                <li onclick="openUrl('CISS.html')">Sahaj Education</li>
+                <li onclick="openUrl('LiveStream.html')">Live stream</li>
+            </ul>
+        </nav>
+    </header>
+    <br>   
+    <br>
+
+<section>
+    <div class="main-news-box">
+        <img src="../images/IMC.jpg" alt="">
+        <div class="footer-header"></div>
+        <h3>Sahaja Yoga Marriages</h3>
+    </div>
+    <div class="news-box">
+        <a href="https://www.youtube.com/watch?v=JrRs5R3m4uU">
+            <div class="news-img">
+                <img src="../images/IMCLG.webp">
+            </div>
+            <div class="text-news">
+                Announcements of Shri Ganesha puja, Wednesday September 13th</div>
+            <div class="date">
+                <i class="fa fa-external-link-square"></i>
+            </div>
+        </a>
+    </div>
+
+    <!-- <<div class="news-box">
+        <a href="https://shriganeshapuja.org/2023/daily-programs-and-recordings/">
+            <div class="news-img">
+                <img src="http://drive.google.com/uc?export=view&id=1lOxjW2I_chXUnfqCf_ovriORc3ALov2c">
+            </div>
+            <div class="text-news">
+                See the full programs of Shri Ganesha Puja
+            </div>
+            <div class="date">
+                <i class="fa fa-external-link-square" style="color:#9bd0b7; margin-right: 5px; font-size:26px "aria-hidden="true"></i>
+            </div>
+        </a>
+    </div>> -->
+
+    <div class="news-box">
+        <a href="https://www.sahajamarriages.org/">
+            <div class="news-img">
+                <img src="../images/IMCLG.webp">
+            </div>
+            <div class="text-news">
+                Visit Sahaja Yoga Marriages Website
+            </div>
+            <div class="date">
+              <i class="fa fa-external-link-square"></i>
+            </div>
+        </a>
+      </div>
+    
+
+    <br>
+
+    <!-- Generic box for News
+    <div class="news-box">
+        <a href="">
+            <div class="news-img">
+                <img src="">
+            </div>
+            <div class="text-news">
+                Latest news (small description)
+            </div>
+            <div class="date">
+                21/03/2022
+            </div>
+        </a>
+    </div> -->
+
+</section>   
+
+<script>
+    function openUrl(url) {
+         window.location.replace(url);
+    }</script>
+
+<script>
+    var navbarElement = document.getElementById("navbarContainer");
+var scrollPositionX = navbarElement.scrollLeft;
+var navbarElement = document.getElementById("navbarContainer");
+var desiredScrollPositionX = 650; // Replace with your desired scroll position value
+navbarElement.scrollLeft = desiredScrollPositionX;
+</script>
+</body>
+</html>

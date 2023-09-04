@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../stylee.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto:ital,wght@0,500;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <header class="header1"  id="navbarContainer">
+       <nav>
+            <ul>
+                <li  onclick="openUrl('../index.html')">Latest news</li>
+                <li  onclick="openUrl('EventsAndPujas.html')">Events and Pujas</li>
+                <li  onclick="openUrl('NVandNIPC.html')">NIPC/NV</li>
+                <li  onclick="openUrl('WF.html')">World Foundation</li>
+                <li class="tab-hover" onclick="openUrl('CC.html')">Central Committee</li>
+                <li onclick="openUrl('IMC.html')">International Marriage Committee</li>
+                <li onclick="openUrl('CISS.html')">Sahaj Education</li>
+                <li onclick="openUrl('LiveStream.html')">Live stream</li>
+            </ul>
+        </nav>
+    </header>
+    <br>   
+    <br>
+
+<section>
+    
+    <!-- <div class="main-news-box">
+        <img src="../images/.jpeg" alt="">
+    </div> -->
+    <br>
+
+    <div class="news-box" onclick="openUrl('CC-Composition-mandate.html')">
+        <div class="news-img">
+            <img src="../images/CCLG.png" style="object-fit:fill;">
+        </div>
+        <div class="text-news">
+            September Newsletter - CC's composition and mandate
+        </div>
+        <div class="date">
+            3/09/2023
+        </div>
+    
+    </div> 
+
+
+    <div class="news-box" >
+        <a href="http://centralcommittee.info/communications/practice-of-havans-and-pujas/">
+            <div class="news-img">
+                <img src="../images/CCLG.png">
+            </div>
+            <div class="text-news">
+                Practice of Havans and Pujas
+                
+            </div>
+            <div class="date">
+                16/04/2023   <i class="fa fa-external-link-square"></i>
+
+            </div>
+        </a>
+    </div>
+
+    <div class="news-box">
+        <a href="http://centralcommittee.info/">
+            <div class="news-img">
+                <img src="../images/CCLG.png">
+            </div>
+            <div class="text-news">
+                Sahaja Yoga Central Committee Website
+            </div>
+            <div class="date">
+                <i class="fa fa-external-link-square"></i>            </div>
+        </a>
+    </div>
+    
+
+    
+
+    <!-- Generic box for News
+    <div class="news-box">
+        <a href="">
+            <div class="news-img">
+                <img src="">
+            </div>
+            <div class="text-news">
+                Latest news (small description)
+            </div>
+            <div class="date">
+                21/03/2022
+            </div>
+        </a>
+    </div> -->
+
+</section>   
+
+<script>
+    function openUrl(url) {
+         window.location.replace(url);
+    }</script>
+
+<script>
+    var navbarElement = document.getElementById("navbarContainer");
+var scrollPositionX = navbarElement.scrollLeft;
+var navbarElement = document.getElementById("navbarContainer");
+var desiredScrollPositionX = 400; // Replace with your desired scroll position value
+navbarElement.scrollLeft = desiredScrollPositionX;
+</script>
+</body>
+</html>

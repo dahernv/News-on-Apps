@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../stylee.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto:ital,wght@0,500;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header1" id="navbarContainer">
+       <nav>
+            <ul>
+                <li  onclick="openUrl('../index.html')">Latest news</li>
+                <li  onclick="openUrl('EventsAndPujas.html')">Events and Pujas</li>
+                <li class="tab-hover" onclick="openUrl('NVandNIPC.html')">NIPC/NV</li>
+                <li onclick="openUrl('WF.html')">World Foundation</li>
+                <li onclick="openUrl('CC.html')">Central Committee</li>
+                <li onclick="openUrl('IMC.html')">International Marriage Committee</li>
+                <li onclick="openUrl('CISS.html')">Sahaj Education</li>
+                <li onclick="openUrl('LiveStream.html')">Live stream</li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <br>
+
+<section>
+    
+    <div class="main-news-box" >
+        <img src="../images/NIPC.jpg">
+        <div class="footer-header"></div>
+        <h3>Divine Heritage</h3>
+    </div>
+   
+    <div class="news-box" onclick="openUrl('NIPC-NVLLc.html')">
+        <div class="news-img">
+        <img src="../images/NVLG.jpg">
+    </div>
+        <div class="text-news">About NIPC (History, how it was founded)</div>
+        <div class="date">1/09/2023</div>
+    </div>
+
+    <div class="news-box" onclick="openUrl('preservation-team.html')">
+         <div class="news-img">
+            <img src="../images/NVLG.jpg">
+        </div>
+      <div class="text-news">Devi production</div>
+          <div class="iconNV"></div>    
+      <div class="date">1/09/2023</div>
+    </div>
+
+    <div class="news-box" onclick="openUrl('1-NVC.html')">
+        <div class="news-img">
+            <img src="../images/NVLG.jpg">
+       </div>
+            <div class="text-news">About the Nirmala Vidya Collections (60 books to go out of 3000 talks)</div>
+                <div class="date">1/09/2023</div>
+    </div>
+
+    <br>
+
+<!-- 
+<h3 style="display: block; text-align: center;">How to use the Apps</h3>
+
+
+<div class="news-box" onclick="openUrl('Vimeo.html')">
+    <div class="news-img">
+        <img src="../images/vimeo.svg">
+   </div>
+        <div class="text-news">Why Vimeo</div>
+</div> 
+
+<div class="news-box" onclick="openUrl('android-iphone.html')">
+    <div class="news-img">
+        <img src="../images/NVLG.jpg">
+   </div>
+        <div class="text-news">How to use filters on the Apps</div>
+</div> 
+
+<div class="news-box" onclick="openUrl('android-iphone-share.html')" >
+    <div class="news-img">
+        <img src="../images/NVLG.jpg">
+   </div>
+        <div class="text-news">How to  share on the Apps</div>
+</div> 
+
+<div class="news-box" onclick="openUrl('books.html')"><a href="">
+    <div class="news-img">
+        <img src="../images/books-icon.png">
+   </div>
+        <div class="text-news">Books on the Apps</div>
+</div>  -->
+
+
+</section>
+
+<script>
+    function openUrl(url) {
+         window.location.replace(url);
+    }
+</script>
+
+<script>
+    var navbarElement = document.getElementById("navbarContainer");
+var scrollPositionX = navbarElement.scrollLeft;
+var navbarElement = document.getElementById("navbarContainer");
+var desiredScrollPositionX = 260; // Replace with your desired scroll position value
+navbarElement.scrollLeft = desiredScrollPositionX;
+</script>
+</body>
+</html>
